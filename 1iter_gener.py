@@ -54,7 +54,7 @@ class MyNumbers:
   def __next__(self):
     if self.a <= 20:
       x = self.a
-      self.a += 1
+      self.a += 2
       return x
     else:
       raise StopIteration
